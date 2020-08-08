@@ -1,0 +1,43 @@
+@media screen and (max-width: 600px) {
+  .cb-slideshow li div h3 { font-size: 50px }
+}
+
+@media screen and (max-width:1100px)
+{
+  body
+  {
+    font-size: 27px;
+  }
+
+  .flx{
+    font-size: 33px;
+    flex-flow:column;
+}
+}
+
+@media screen and (max-width:1300px)
+{
+  .section{
+    background-size: fill;
+    width:100%;
+    /*height:auto;*/
+    scroll-snap-align:start;
+    padding-top: 30%;
+  }
+}
+
+@media screen and (max-width:850px)
+{
+
+  .section{
+    padding-top: 33%;
+  }
+}
+
+@media screen and (max-width:600px)
+{
+
+  .section{
+    padding-top: 36%;
+  }
+}
